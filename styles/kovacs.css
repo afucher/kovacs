@@ -1,0 +1,49 @@
+div.side-card {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: auto;
+    z-index: 1;
+    margin-right: -5px;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+    padding-top: 24px;
+    padding-right: 10px;
+    color: black;
+    font-family: Lato, sans-serif;
+    max-width: 320px;
+    max-height: 100%;
+    line-height: normal;
+}
+
+div.side-card>.title {
+    margin: 0;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    background: none;
+    resize: none;
+    overflow: hidden;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-weight: 900;
+    font-size: 28px;
+    width: 294px;
+    font-family: Lato, sans-serif;
+}
+
+div.side-card>.body {
+    margin: 0;
+    margin-left: 16px;
+    background: none;
+    resize: none;
+    overflow: hidden;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    height: 100%;
+    width: 294px;
+    font-family: Lato, sans-serif;
+}

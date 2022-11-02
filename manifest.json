@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Kovacs",
+    "version": "0.0.1",
+    "description": "Kovacs - Altered Carbon",
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "css": [
+                "styles/kovacs.css"
+            ],
+            "matches": [
+                "https://carbon.now.sh/*"
+            ]
+        }
+    ]
+}
