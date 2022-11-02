@@ -7,7 +7,7 @@ if (container) {
 
     sideCard.classList.add("side-card");
 
-    sideCard.innerHTML = '<h2 class="title">Kovacs</h2><p class="body">Altered Carbon</p>'
+    sideCard.innerHTML = '<textarea class="title">Kovacs</textarea><textarea class="body">Altered Carbon</textarea>'
 
     const containerChildren = [...container.childNodes]
     containerChildren.forEach(el => {
