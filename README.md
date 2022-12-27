@@ -2,6 +2,8 @@
 
 # Kovacs
 ### Altered Carbon
+![](./images/icon_128.png)
+
 
 ![](./images/altered_carbon.png)
 
