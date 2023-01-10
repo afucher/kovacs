@@ -1,9 +1,8 @@
 const container = document.querySelector("div.container");
+const sideCard = document.createElement("div");
 
-// `document.querySelector` may return null if the selector doesn't match anything.
 if (container) {
     const wrapper = document.createElement("div");
-    const sideCard = document.createElement("div");
 
     sideCard.classList.add("side-card");
 
@@ -19,3 +18,14 @@ if (container) {
 
     container.appendChild(wrapper);
 }
+
+chrome.runtime.onMessage.addListener(
+  function(request, sender, sendResponse) {
+    if(request == 'getState') {
+      sendResponse({enabled: sideCard.style.display !== "none"})
+    } else if(request.hasOwnProperty('enabled')) {
+      const display = request.enabled ? "block" : "none";
+      sideCard.style.display = display;
+    } 
+  }
+);

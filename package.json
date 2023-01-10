@@ -1,0 +1,22 @@
+{
+  "name": "kovacs",
+  "version": "0.0.1",
+  "description": "⚠️🚧 Under development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afucher/kovacs.git"
+  },
+  "author": "Arthur Fücher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afucher/kovacs/issues"
+  },
+  "homepage": "https://github.com/afucher/kovacs#readme",
+  "devDependencies": {
+    "chrome-types": "^0.1.160"
+  }
+}
