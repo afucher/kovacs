@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Kovacs - Altered Carbon",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Alters Carbon app adding a side-card to include a title and description.",
     
     "permissions": [ "activeTab",
