@@ -1,13 +1,14 @@
-⚠️🚧 Under development
+
+# Kovacs: Altered Carbon
+
+<a href="https://chrome.google.com/webstore/detail/kovacs-altered-carbon/cbbiifcionibkklghefkcineekginbla" target="_blank"><img src="https://imgur.com/3C4iKO0.png" width="64" height="64"></a>
 
 ![](./images/icon_128.png)
 
-# Kovacs
-### Altered Carbon
+Browser extension that adds a side card panel to [Carbon](https://carbon.now.sh/) to include some title and description to your beautiful source code.
 
 ![](./images/altered_carbon.png)
 
-Browser extension that adds a side card panel to [Carbon](https://carbon.now.sh/) to include some title and description to your beaultiful source code.
 
 ---
 #### Why Kovacs?
