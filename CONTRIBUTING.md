@@ -14,11 +14,18 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 <!-- omit in toc -->
 ## Table of Contents
 
+- [Code of Conduct](#code-of-conduct)
 - [I Have a Question](#i-have-a-question)
 - [I Want To Contribute](#i-want-to-contribute)
 - [Reporting Bugs](#reporting-bugs)
 - [Suggesting Enhancements](#suggesting-enhancements)
 
+## Code of Conduct
+
+This project and everyone participating in it is governed by the
+[Code of Conduct](https://github.com/afucher/kovacs/blob/main/CODE_OF_CONDUCT.md).
+By participating, you are expected to uphold this code. Please report unacceptable behavior
+to <arthurfucher@gmail.com>.
 
 ## I Have a Question
 
